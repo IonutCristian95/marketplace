@@ -1,0 +1,49 @@
+#navbar{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(255,255,255, 1);
+    position: fixed;
+    top: 0px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#navbar>div{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar>div>p{
+    color: black;
+}
+
+#navbar>div>p:hover{
+    text-decoration: line-through;
+    transition: ease-in;
+}
+
+main{
+    padding-top: 12vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 5vw;
+}
+
+#background-container>img{
+    padding: 5vw;
+    max-width: 90vw;
+}
+
+#background-container{
+    display: block;
+}
+
+@media only screen and (max-width: 600px){
+    #navbar>div>p{
+        font-size: 0.6rem;
+    }
+}

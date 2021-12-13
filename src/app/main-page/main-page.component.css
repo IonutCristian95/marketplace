@@ -1,0 +1,72 @@
+#welcome-message{
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+}
+
+.grid-container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-rows: 1fr 1fr;
+}
+
+.d1{
+    background: url("../../assets/couples-watches.jpg");
+    background-size: cover;
+}
+.d2{
+    background: url("../../assets/watch_1.jpg");
+    background-size: cover;
+}
+.d3{
+    background: url("../../assets/watch_2.jpg");
+    background-size: cover;
+}
+.d4{
+    background: url("../../assets/watch_3.jpg");
+    background-size: cover;
+}
+.d5{
+    background: url("../../assets/watch_4.jpg");
+    background-size: cover;
+}
+.d6{
+    background: url("../../assets/watch_5.jpg");
+    background-size: cover;
+}
+.d7{
+    background: url("../../assets/watch_6.jpg");
+    background-size: cover;
+}
+.d8{
+    background: url("../../assets/watch_7.jpg");
+    background-size: cover;
+}
+.d9{
+    background: url("../../assets/watch_8.jpg");
+    background-size: cover;
+}
+
+.height-set{
+    height: 40vh;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.height-set>p{
+    visibility: hidden;
+}
+
+.height-set:hover{
+    transition: all ease-in .4s;
+    transform: scale(1.1);
+}
+.height-set:hover>p{
+    visibility: visible;
+}
+
